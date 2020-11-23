@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  covid19simulationmaster:
+    image: covid19simulationmaster
+    build:
+      context: .
+      dockerfile: Dockerfile
